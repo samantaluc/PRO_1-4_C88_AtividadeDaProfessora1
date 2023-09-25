@@ -19,27 +19,14 @@ export default class HomeScreen extends Component {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1
-    },
+        flex: 1 },
     droidSafeArea: {
-        marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
-    },
+        marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0 },
     titleBar: {
-        flex: 0.15,
-        justifyContent: "center",
-        alignItems: "center"
-    },
+        flex: 0.15, justifyContent: "center", alignItems: "center" },
     titleText: {
-        fontSize: 40,
-        fontWeight: "bold",
-        color: "white"
-    },
+        fontSize: 40,fontWeight: "bold", color: "white" },
     routeCard: {
-        flex: 0.25,
-        marginLeft: 50,
-        marginRight: 50,
-        marginTop: 50,
-        borderRadius: 30,
-        backgroundColor: 'white'
-    }
+        flex: 0.25,  marginLeft: 50,  marginRight: 50,  marginTop: 50,  borderRadius: 30,
+        backgroundColor: 'white'}
 });
